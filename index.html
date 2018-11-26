@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Web Resume</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/superslides.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+	<div class="loader">
+		<div class="inner"></div>
+	</div>
+
+	<div id="slides">
+		
+		<div class="overlay"></div>
+
+		<div class="slides-container">
+		    <img src="img/slide1.jpeg" alt="">
+		    <img src="img/slide2.jpeg" alt="">
+		    <img src="img/slide3.jpeg" alt="">
+		</div>
+
+		<div class="titleMessange">
+			<div class="heading">
+				<p class="first_title">Hello! I'M RYAN LIN</p>
+				<p class="sub typed"></p>
+			</div>
+		</div>
+
+		<nav class="slides-navigation">
+		    <a href="#" class="next"></a>
+		    <a href="#" class="prev"></a>
+		</nav>
+		<a class="smooth-down" href="#about">
+			<div class="mouse-icon">
+				<div class="wheel"></div>
+			</div>
+		</a>
+	
+		<!-- <div class="arrow-down">
+			<a href="#profile" class="anchor">
+				<i class="fa fa-angle-double-down fa-4x" aria-hidden="true"></i>
+			</a>
+		</div> -->
+	</div>
+
+	<nav id="navigation" class="navbar navbar-expand-lg ">
+	  <div class="container">
+		<a class="navbar-brand" href="#">Ryan</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#slides">Home</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#skills">SKILL</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#portfolio">Portfolio</a>
+			</li>
+			<!-- <li class="nav-item">
+				<a class="nav-link disabled" href="#">Disabled</a>
+			</li> -->
+			</ul>
+		</div>
+	  </div>
+	 
+	</nav>
+
+	<div id="about" class="section">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-md-5">
+					<img src="img/aboutimg.jpg" alt="" class="aboutImage">
+				</div>
+				
+				<div class="col-md-7">
+					<h4>你好，我是林益鋐 (Ryan)</h4>
+					<p>因為接觸了物聯網人才培訓課程，發現自己對於網頁前端很有興趣，所以在課程期間，也透過網路上的資源來學習。</p>
+					<p>在簡單生活電子商務，擔任前端網頁，依公司活動檔期的需求，配合企劃建置活動網頁，將美工設計的平面稿做成響應式網頁，同時還要考量瀏覽器兼容性等等細節，
+					   網頁製作大致上都是以Html、CSS為主，搭配jQuery套件讓網頁能有動態效果，並掌握專案的開發進度，讓網站順利上線。</p>
+					<p>現在的我還有很多需要學習的地方，期許自己能夠成為獨當一面的前端工程師，會利用下班以及假日的時間學習，提升自己的實力，希望能持續在這領域發展。</p>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="skills" class="skillsSection section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>SKILL</h2>
+				</div>
+				<div class="owl-carousel owl-theme">
+					<div class="skill">
+						<span class="chart" data-percent="70">
+							
+							<span class="percent">70</span>
+							<canvas height="152" width="152"></canvas>
+						</span>
+						<h5>HTML+CSS</h5>
+						<p>網頁切版，RWD響應式設計</p>
+					</div>
+
+					<div class="skill">
+						<span class="chart" data-percent="60">
+							
+							<span class="percent">70</span>
+							<canvas height="152" width="152"></canvas>
+						</span>
+						<h5>JS+jQuery</h5>
+						<p>控制網頁元素結合套件使用，增添網頁互動性和動態效果</p>
+					</div>
+
+					<div class="skill">
+						<span class="chart" data-percent="60">
+							
+							<span class="percent">60</span>
+							<canvas height="152" width="152"></canvas>
+						</span>
+						<h5>Bootstrapt</h5>
+						<p>使用 Bootstrapt 快速建構網頁</p>
+					</div>
+
+					<div class="skill">
+						<span class="chart" data-percent="50">
+							
+							<span class="percent">60</span>
+							<canvas height="152" width="152"></canvas>
+						</span>
+						<h5>Vue</h5>
+						<p>透過 Vue 將資料的變化及時渲染到網頁上</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="stats" class="statsSection section">
+	</div>
+	<div class="parallax-window" data-parallax="scroll" data-image-src="img/portfolio-bg.jpg">
+		<div id="portfolio" class="section">
+			<h2>PORTFOLIO</h2>
+			<div class="portfolio-content">
+				<ul class="portfolio-list clearfix" style="display: block;">
+					<li>
+						<a href="" target="_blank"><img src="img/portfolio-1.png" alt=""></a>
+					</li>
+					<li>
+						<a href="https://hunset35.github.io/Hennessy1122/" target="_blank"><img src="img/portfolio-2.png" alt=""></a>
+					</li>
+					<li>
+						<a href="https://hunset35.github.io/Travel-in-Kaohsiung/" target="_blank"><img src="img/portfolio-3.png" alt=""></a>
+					</li>
+					<li>
+						<a href="https://hunset35.github.io/FormCheck/" target="_blank"><img src="img/portfolio-4.png" alt=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="copyrightSection">
+		
+		<div class="col-md-12 text-center">
+			<p>&copy;2018 Ryan Lin All rights reserved.</p>
+		</div>
+
+	</div>
+
+</body>
+<script src="js/countUp.js"></script>
+<script src="js/countUp-jquery.js"></script>
+<script src="js/jquery.superslides.min.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+</html>
